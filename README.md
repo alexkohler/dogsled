@@ -15,8 +15,8 @@ Similar to other Go static analysis tools (such as golint, go vet), dogsled can 
 
 ### Flags
 - **-tests** (default true) - Include test files in analysis
-- **-n** (default 2) - Include test files in analysis
-- **-set_exit_status** (default false) - Set exit status to 1 if any issues are found.
+- **-n** (default 2) - Maximum number of blank identifiers allowed in an assignment statement
+- **-set_exit_status** (default false) - Set exit status to 1 if any issues are found
 
 ## Example
 
