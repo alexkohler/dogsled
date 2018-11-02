@@ -1,6 +1,6 @@
 # dogsled [![Build Status](https://travis-ci.com/alexkohler/dogsled.svg?branch=master)](https://travis-ci.com/alexkohler/dogsled)
 
-dogsled is a Go static analysis tool to find assignments/declarations with too many blank identifiers (e.g. `x, _, _, _, := f()`). Its name was inspired from [this reddit post](https://www.reddit.com/r/golang/comments/9syjj8/what_are_some_red_flags_for_you_in_go_code_reviews/e8sgygf/)
+dogsled is a Go static analysis tool to find assignments/declarations with too many blank identifiers (e.g. `x, _, _, _, := f()`). Its name was inspired from [this reddit post](https://www.reddit.com/r/golang/comments/9syjj8/what_are_some_red_flags_for_you_in_go_code_reviews/e8sgygf/).
 
 ## Installation
 
@@ -18,9 +18,7 @@ Similar to other Go static analysis tools (such as golint, go vet), dogsled can 
 - **-n** (default 2) - Include test files in analysis
 - **-set_exit_status** (default false) - Set exit status to 1 if any issues are found.
 
-NOTE: by default, dogsled will check for typos in every identifier (functions, function calls, variables, constants, type declarations, packages, labels). In this case, no flag needs specified. Due to a lack of frequency, there are currently no flags to find only type declarations, packages, or labels.
-
-## Example uses in popular Go repos
+## Example
 
 
 Some examples from the [Go standard library](https://github.com/golang/go)
