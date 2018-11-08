@@ -104,7 +104,7 @@ func parseInput(args []string, fset *token.FileSet, includeTests bool) ([]*ast.F
 	// do a final pass to remove tests
 	if !includeTests {
 		for i, f := range files {
-			if strings.HasSuffix(fset.File(f.Pos()).Name(), "test.go") {
+			if strings.HasSuffix(fset.File(f.Pos()).Name(), "_test.go") {
 				files[i] = nil
 			}
 		}
