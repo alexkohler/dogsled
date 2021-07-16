@@ -51,4 +51,5 @@ Please open an issue and/or a PR for any features/bugs.
 If you've enjoyed dogsled, take a look at my other static anaylsis tools!
 - [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
 - [nakedret](https://github.com/alexkohler/nakedret) - Finds naked returns.
-- [identypo](https://github.com/alexkohler/unimport) - Finds typos in variable names, function names, constants, and more!
+- [identypo](https://github.com/alexkohler/identypo) - Finds typos in variable names, function names, constants, and more!
+- [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases.
