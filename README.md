@@ -1,6 +1,6 @@
 # dogsled [![Build Status](https://travis-ci.com/alexkohler/dogsled.svg?branch=master)](https://travis-ci.com/alexkohler/dogsled)
 
-dogsled is a Go static analysis tool to find assignments/declarations with too many blank identifiers (e.g. `x, _, _, _, := f()`). Its name was inspired from [this reddit post](https://www.reddit.com/r/golang/comments/9syjj8/what_are_some_red_flags_for_you_in_go_code_reviews/e8sgygf/).
+dogsled is a Go static analysis tool to find assignments/declarations with too many blank identifiers (e.g. `x, _, _, _ := f()`). Its name was inspired from [this reddit post](https://www.reddit.com/r/golang/comments/9syjj8/what_are_some_red_flags_for_you_in_go_code_reviews/e8sgygf/).
 
 ## Installation
 
